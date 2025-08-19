@@ -82,14 +82,14 @@ git clone https://github.com/yourusername/NumberPlateDetectionModel.git
 ```
 cd NumberPlateDetectionModel
 
-
+---
 Create & activate virtual environment:
 
 python -m venv venv
 source venv/bin/activate   # On Linux/Mac
 venv\Scripts\activate      # On Windows
 
-
+---
 Install dependencies:
 
 pip install -r requirements.txt
@@ -114,8 +114,8 @@ chars = segment_characters(plate)
 plate_number = show_results(chars)
 print("Detected Plate:", plate_number)
 
-📊 Results
-
+## 📊 Results
+---
 Examples from test images:
 
 Input Image	Detected Plate	Predicted Number
@@ -127,8 +127,9 @@ Input Image	Detected Plate	Predicted Number
 	✅	MH20EE7602
 
 	✅	HR26DK8337
-🔮 Future Improvements
+## 🔮 Future Improvements
 
+---
 Replace Haar Cascade with YOLO/SSD/RetinaNet for robust detection.
 
 Expand dataset for more diverse plate styles & fonts.
@@ -137,8 +138,8 @@ Deploy as a Flask/FastAPI web app or mobile app.
 
 Real-time detection from video streams.
 
-📦 Requirements
-
+## 📦 Requirements
+---
 Python 3.8+
 
 TensorFlow / Keras
@@ -155,6 +156,7 @@ Install via:
 
 pip install -r requirements.txt
 
+---
 📝 Author
 
 Mriduparna Bania
