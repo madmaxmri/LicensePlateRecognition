@@ -21,8 +21,9 @@ Visualizations of each step: detection, segmentation, and final recognition.
 
 ---
 
-🏗️ Project Workflow
+## 🏗️ Project Workflow
 
+---
 Preprocessing
 
 Extract license plate region using Haar Cascade.
@@ -35,6 +36,7 @@ Contour and connected components filtering.
 
 Resize and normalize segmented characters.
 
+---
 Model Training
 
 CNN trained on dataset with augmentation (ImageDataGenerator).
@@ -43,12 +45,14 @@ Classes: 0–9, A–Z.
 
 Metrics: Loss + Micro F1-Score.
 
+---
 Prediction
 
 Segmented characters are passed through trained CNN.
 
 Characters are concatenated to form the license plate string.
 
+---
 Visualization
 
 Draw bounding box around detected plate.
@@ -72,8 +76,10 @@ bash
 ⚙️ Installation
 
 Clone the repository:
-
+```
+bash
 git clone https://github.com/yourusername/NumberPlateDetectionModel.git
+```
 cd NumberPlateDetectionModel
 
 
