@@ -160,4 +160,4 @@ pip install -r requirements.txt
 📝 Author
 
 Mriduparna Bania
-🚀 Passionate about Computer Vision & Deep Learning
+
